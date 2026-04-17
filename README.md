@@ -5,6 +5,9 @@ These rules are throwing warning for:
 - Residential area without node with place attribute
 - Node with place attribute that is not inside a residential landuse
 
+<img width="304" height="89" alt="image" src="https://github.com/user-attachments/assets/4abc6ab2-8807-4b91-a2db-fe326bb659ec" />
+
+
 To add these rules into your JOSM use https://raw.githubusercontent.com/MissingMaps/3rdPassJOSMRules/refs/heads/main/MM_3rdPassValidationRules.mapcss
 
 <img width="1135" height="737" alt="How_to_add_validation_rules" src="https://github.com/user-attachments/assets/c91ff440-d630-4cf0-aa54-b6062b66dc05" />
