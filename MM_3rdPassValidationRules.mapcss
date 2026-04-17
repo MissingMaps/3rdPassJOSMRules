@@ -1,0 +1,18 @@
+meta
+{
+  title: "Missing Maps 3rd Pass Validation Rules";
+  version: "1";
+  author: "Patrik_B";
+}
+
+
+node[place] ⊈ *[landuse=residential]{
+  throwWarning: tr("Landuse without place node inside");
+  group: tr("MM 3rd Pass");
+}
+
+*[landuse=residential] ⊉ node[place]{
+  throwWarning: tr("Place node outside residential landuse");
+  group: tr("MM 3rd Pass");
+}
+
