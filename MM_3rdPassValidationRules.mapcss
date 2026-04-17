@@ -7,7 +7,7 @@ meta
 
 
 node[place] ⊈ *[landuse=residential]{
-  throwWarning: tr("Landuse without place node inside");
+  throwWarning: tr("Residential landuse without place node inside");
   group: tr("MM 3rd Pass");
 }
 
