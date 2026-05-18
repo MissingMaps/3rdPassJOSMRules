@@ -11,7 +11,7 @@ node[place] ⊈ *[landuse=residential]{
   group: tr("MM 3rd Pass");
 }
 
-*[landuse=residential] ⊉ node[place]{
+*[landuse=residential] ⊉ node[place][place!=isolated_dwelling]{
   throwWarning: tr("Place node outside residential landuse");
   group: tr("MM 3rd Pass");
 }
