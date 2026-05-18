@@ -3,7 +3,7 @@ Set of JOSM rules for validation plugin suitable for 3rdpass validation. Please 
 
 These rules are throwing warning for:
 - Residential area without node with place attribute
-- Node with place attribute that is not inside a residential landuse
+- Node with place attribute that is not inside a residential landuse **except place=isolated_dwelling**
 
 <img width="304" height="89" alt="image" src="https://github.com/user-attachments/assets/4abc6ab2-8807-4b91-a2db-fe326bb659ec" />
 
